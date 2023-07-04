@@ -648,7 +648,7 @@ input:focus {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-} */
+}  */
 
 /* .footer-advise-container {
   margin-right: 120px;
@@ -749,6 +749,7 @@ input:focus {
 }
 
 .footer-input {
+  width: 264px;
   height: 40px;
   border: 1px solid var(--header-bg-color);
   background-color: transparent;
