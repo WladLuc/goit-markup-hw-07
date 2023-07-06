@@ -146,16 +146,12 @@ img {
 }
 
 .hero-title {
-  max-width: 496px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-bg-color);
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 48px;
 } 
 
 /* order button */
@@ -641,19 +637,13 @@ input:focus {
   background-color: var(--headings-color);
 }
 
-/* .footer-container {
+.footer-container {
   display: flex;
-  align-items: baseline;
-  width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}  */
-
-/* .footer-advise-container {
-  margin-right: 120px;
-} */
+}
 
 .footer-logo {
   width: 115px;
@@ -750,7 +740,6 @@ input:focus {
 }
 
 .footer-input {
-  width: 264px;
   height: 40px;
   border: 1px solid var(--header-bg-color);
   background-color: transparent;

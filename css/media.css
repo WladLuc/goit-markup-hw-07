@@ -96,7 +96,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     left: 0;
     background-color: var(--header-bg-color);
     opacity: 0;
-    visibility: hidden;
+    visibility: hidden;footer
     pointer-events: none;
     transform: translateX(100%);
     transition: transform var(--transition-dur-and-func);
@@ -210,15 +210,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 
   .hero-title {
-    width: 320px;
-    font-weight: 700;
+    max-width: 320px;
     font-size: 36px;
     line-height: 1.1;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: var(--header-bg-color);
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 72px;
   }
 
@@ -317,6 +312,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     text-align: center;
   }
 
+  .footer-container {
+    max-width: 428px;
+  }
+
   .footer-form {
     display: flex;
     flex-wrap: wrap;
@@ -326,23 +325,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 
   .footer-form-lable {
-    width: 398px;
+    width: 100%;
   }
 
   .footer-input {
     width: 100%;
-    height: 40px;
-    border: 1px solid var(--header-bg-color);
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: var(--header-bg-color);
-    margin: auto;
   }
+
 }
 
 /* ===== 428px 767px ===== */
@@ -511,9 +500,22 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     margin: 16px 0;
   }
 
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+  }
+
   .footer-form-lable {
     margin-right: 24px;
   }
+
+  .footer-input {
+    width: 264px;
+  }
+
 }
 
 /* ===== 1158px + =====*/
@@ -589,10 +591,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     display: flex;
     align-items: baseline;
     width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+ 
   }
 
   .footer-advise-container {
